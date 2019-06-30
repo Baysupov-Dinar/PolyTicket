@@ -1,0 +1,32 @@
+@charset "UTF-8";
+
+	
+button {
+	
+  color: #fff; /* цвет текста */
+  text-decoration: none; /* убирать подчёркивание у ссылок */
+  user-select: none; /* убирать выделение текста */
+  background: rgb(212,75,56); /* фон кнопки */
+  
+  height: 50px;
+  width: 120px;
+	margin: 15px;
+	margin-top: 0px;
+	margin-bottom: 0px;
+	margin-left: 0px;
+  outline: none; /* убирать контур в Mozilla */
+
+
+margin-right: 0px;
+} 
+button:hover { background: rgb(100,167,129); } /* при наведении курсора мышки */
+button:active { background: rgb(98,255,68); } /* при нажатии */
+
+div{
+	position: fixed;
+	left:65%;
+	top: 0%;
+}
+
+@media (max-width: 1200px){
+}
