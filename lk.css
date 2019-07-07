@@ -1,0 +1,153 @@
+.container {
+    width: 100%;
+    /*max-width:750px;*/
+    border: 2px solid green;
+}
+
+span.left {
+    float: left;
+    line-height: 50px;
+    width: auto;
+}
+
+.right {
+    float: right;
+    line-height: 50px;
+    width: 200px;
+}
+
+.side {
+    height: 100%;
+    width: 20%;
+    float: left;
+    border: 1px solid green;
+}
+
+.sideImg {
+    float: left;
+    width: 100%;
+    height: auto;
+}
+
+.sideImg img {
+    width: 100%;
+}
+
+.socialMedia {
+    width: 100%;
+    float: left;
+    height: 150px;
+}
+
+.socialMedia .icon {
+    text-align: center;
+    float: left;
+    width: calc(50% - 2px);
+}
+
+.socialMedia .icon img {
+    width: 50%;
+    background-color: transparent;
+}
+
+.socialMedia .icon2 img {
+    width: 25%;
+    background: transparent;
+}
+.socialMedia .icon button, .icon2 button{
+    color: #000000;
+    background: #ffffff;
+    border: #ffffff;
+}
+.socialMedia .icon button:active, .icon2 button:active{
+    border: black;
+}
+
+.socialMedia .icon2 {
+    text-align: center;
+    float: left;
+    width: 100%;
+}
+
+.settings button {
+    user-select: none;
+    text-decoration: none;
+    text-align: center;
+    padding: 10px 20px;
+    border: none;
+    width: 100%;
+    font: 20px Tahoma, Geneva, sans-serif;
+    font-weight: bold;
+    color: #000000;
+    background: #ffffff;
+}
+
+.mainSection {
+    float: left;
+    width: 100%;
+    height: 100%;
+    border: 1px solid blue;
+}
+
+.general {
+    border: 1px solid violet;
+    float: left;
+    width: 79%;
+}
+.general a{
+    padding-left: 50px;
+    font: 40px Tahoma, Geneva, sans-serif;
+}
+
+.events {
+    border: 1px solid red;
+}
+
+.events_ev {
+    flex-wrap: wrap;
+    width: 100%;
+    align-content: space-between;
+}
+
+.events_ev .ev {
+    width: 150px;
+    height: 250px;
+    margin: 5px;
+    border: 2px solid blue;
+}
+
+.events_ev .ev .title, .events_ev .ev .date {
+    float: left;
+    width: calc(50% - 2px);
+    text-align: left;
+}
+
+.events_ev .ev .photo {
+    width: 100%;
+}
+
+.events_ev .ev .photo img {
+    width: 100%;
+}
+
+.events_ev .ev .date {
+    text-align: right;
+}
+
+.events_ev .ev .description {
+    width: 96%;
+    margin-left: 2%;
+    float: left;
+}
+
+div {
+    float: left;
+    width: 100%;
+    /*border: 1px dashed black;*/
+}
+
+
+
+
+
+
